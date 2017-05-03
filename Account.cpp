@@ -19,10 +19,10 @@ string account::getpassword()
 	return this->password;
 }
 
-void account::setaccount(string user, string pass)
+void account::setaccount(string users, string pass)
 {
 	//throw gcnew system::notimplementedexception();
-	this->user = user;
+	this->user = users;
 	this->password = pass;
 }
 istream &operator >> (istream &is, account &t) {
