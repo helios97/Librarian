@@ -5,6 +5,7 @@
 account::account(string s)
 {
 	//	throw gcnew system::notimplementedexception();
+	// vi du sua duoc ham nay roi :))) 
 	int index = s.find("|");//tra ve vi tri dau tien khi thay /
 	this->user = s.substr(0, index);
 	this->password = s.substr(index + 1);
