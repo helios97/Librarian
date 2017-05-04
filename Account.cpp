@@ -26,8 +26,8 @@ void account::setaccount(string users, string pass)
 	this->password = pass;
 }
 istream &operator >> (istream &is, account &t) {
-	cout << "enter user:"; is >> t.user;
-	cout << "enter password:"; is >> t.password;
+	cout << "Enter user:"; is >> t.user;
+	cout << "Enter password:"; is >> t.password;
 	return is;
 }
 ostream &operator << (ostream &os, account &t) {
