@@ -29,11 +29,11 @@ int Date::getYear() { return year; }
 void Date::setYear(int day) { this->year = year; }
 void Date::Input() {
 	do {
-		cout << "Enter Day :"; cin >> day;
+		cout << "Enter day :"; cin >> day;
 		if (day > 31 || day<1) cout << "your must input value\n";
 	} while (day > 31 || day < 1);
 	do {
-		cout << "Enter Month :"; cin >> month;
+		cout << "Enter month :"; cin >> month;
 		if (month < 1 || month>12) cout << "Your must input value\n";
 	} while (month < 1 || month>12);
 	do {
